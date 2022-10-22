@@ -104,13 +104,6 @@ app.post("/setFrame", upload.single("video"), async (req, res) => {
       ffmpeg.FS("unlink", "output-image.mp4");
     });
 
-    // res.writeHead(200, {
-    //   "Content-Type": "image/png",
-    //   "Content-Disposition": `attachment;filename=${outputFileName}`,
-    //   "Content-Length": outputData.length,
-    // });
-    // res.end(Buffer.from(outputData, "binary"));
-
     createFile(res, name, outputData, "mp4", "videos");
   } catch (error) {
     console.error(error);
