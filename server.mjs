@@ -80,6 +80,8 @@ app.post("/setFrame", upload.single("video"), async (req, res) => {
     let { name, blockNumber } = req.body;
     let videoData = req.file.buffer;
 
+    console.log(videoData);
+
     const ffmpeg = await getFFmpeg();
 
     const inputFileName = `input-video`;
@@ -90,12 +92,12 @@ app.post("/setFrame", upload.single("video"), async (req, res) => {
       ffmpeg.FS("writeFile", inputFileName, videoData);
 
       await ffmpeg.run(
-        "-r",
-        "8",
         "-i",
         inputFileName,
-        // "-frames:v",
-        // "fps=8",
+        "-filter:v",
+        "fps=8",
+        "-s",
+        "640x480",
         "output-image.mp4"
       );
 

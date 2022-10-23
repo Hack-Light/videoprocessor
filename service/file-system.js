@@ -1,4 +1,5 @@
 const fs = require("fs");
+const path = require("path");
 // let { success, fail } = require("./response");
 let { downloadAsJson, uploadFromMemory } = require("./gcloud-bucket");
 
@@ -14,17 +15,24 @@ exports.createFile = async (res, name, data, type, folder, num = 0) => {
       res.status(200).json({ success: false });
     }
   } else {
-    console.log("got here now");
-    fs.writeFile(
-      `../${folder}/${name}.${type}`,
-      JSON.stringify(data),
-      function (err) {
-        if (err) {
-          res.status(200).json({ success: false });
-        }
-        res.status(201).json({ success: true });
-      }
+    let dir = path.join(
+      "/Users/light/Documents/projects/blockOsphereSever",
+      `${folder}`
     );
+
+    console.log("directory", dir, data);
+
+    fs.writeFile(`${dir}/${name}.${type}`, data, function (err) {
+      if (err) {
+        console.log("got error now");
+
+        res.status(200).json({ success: false });
+      }
+
+      console.log("got here now");
+
+      res.status(201).json({ success: true });
+    });
   }
 };
 

@@ -1,0 +1,129 @@
+[info] use ffmpeg.wasm v0.11.6
+[info] load ffmpeg-core
+[info] loading ffmpeg-core
+[info] ffmpeg-api listening at http://localhost:3900
+[info] ffmpeg-core loaded
+data
+{
+  fieldname: 'video',
+  originalname: 'test.mp4',
+  encoding: '7bit',
+  mimetype: 'video/mp4',
+  buffer: <Buffer 00 00 00 20 66 74 79 70 69 73 6f 6d 00 00 02 00 69 73 6f 6d 69 73 6f 32 61 76 63 31 6d 70 34 31 00 00 00 08 66 72 65 65 00 15 f4 0c 6d 64 61 74 de 02 ... 1455136 more bytes>,
+  size: 1455186
+}
+<Buffer 00 00 00 20 66 74 79 70 69 73 6f 6d 00 00 02 00 69 73 6f 6d 69 73 6f 32 61 76 63 31 6d 70 34 31 00 00 00 08 66 72 65 65 00 15 f4 0c 6d 64 61 74 de 02 ... 1455136 more bytes>
+[info] run FS.writeFile input-video <1455186 bytes binary file>
+[info] run ffmpeg command: -i input-video -filter:v fps=8 -s 640x480 output-image.mp4
+[fferr] ffmpeg version 9e96b1c Copyright (c) 2000-2020 the FFmpeg developers
+[fferr]   built with emcc (Emscripten gcc/clang-like replacement) 2.0.8 (d059fd603d0b45b584f634dc2365bc9e9a6ec1dd)
+[fferr]   configuration: --target-os=none --arch=x86_32 --enable-cross-compile --disable-x86asm --disable-inline-asm --disable-stripping --disable-programs --disable-doc --disable-debug --disable-runtime-cpudetect --disable-autodetect --extra-cflags='-O3 --closure 1 -I/src/build/include -s USE_PTHREADS=1' --extra-cxxflags='-O3 --closure 1 -I/src/build/include -s USE_PTHREADS=1' --extra-ldflags='-O3 --closure 1 -I/src/build/include -s USE_PTHREADS=1 -L/src/build/lib' --pkg-config-flags=--static --nm=llvm-nm --ar=emar --ranlib=emranlib --cc=emcc --cxx=em++ --objcc=emcc --dep-cc=emcc --enable-gpl --enable-nonfree --enable-zlib --enable-libx264 --enable-libx265 --enable-libvpx --enable-libwavpack --enable-libmp3lame --enable-libfdk-aac --enable-libtheora --enable-libvorbis --enable-libfreetype --enable-libopus --enable-libwebp --enable-libass --enable-libfribidi
+[fferr]   libavutil      56. 51.100 / 56. 51.100
+[fferr]   libavcodec     58. 91.100 / 58. 91.100
+[fferr]   libavformat    58. 45.100 / 58. 45.100
+[fferr]   libavdevice    58. 10.100 / 58. 10.100
+[fferr]   libavfilter     7. 85.100 /  7. 85.100
+[fferr]   libswscale      5.  7.100 /  5.  7.100
+[fferr]   libswresample   3.  7.100 /  3.  7.100
+[fferr]   libpostproc    55.  7.100 / 55.  7.100
+[fferr] Input #0, mov,mp4,m4a,3gp,3g2,mj2, from 'input-video':
+[fferr]   Metadata:
+[fferr]     major_brand     : isom
+[fferr]     minor_version   : 512
+[fferr]     compatible_brands: isomiso2avc1mp41
+[fferr]     encoder         : Lavf58.45.100
+[fferr]   Duration: 00:00:19.72, start: 0.000000, bitrate: 590 kb/s
+[fferr]     Stream #0:0(eng): Video: h264 (Constrained Baseline) (avc1 / 0x31637661), yuv420p, 1920x1080 [SAR 1:1 DAR 16:9], 451 kb/s, 25 fps, 25 tbr, 12800 tbn, 50 tbc (default)
+[fferr]     Metadata:
+[fferr]       handler_name    : VideoHandler
+[fferr]     Stream #0:1(eng): Audio: aac (LC) (mp4a / 0x6134706D), 48000 Hz, stereo, fltp, 132 kb/s (default)
+[fferr]     Metadata:
+[fferr]       handler_name    : SoundHandler
+[fferr] Stream mapping:
+[fferr]   Stream #0:0 -> #0:0 (h264 (native) -> h264 (libx264))
+[fferr]   Stream #0:1 -> #0:1 (aac (native) -> aac (native))
+[fferr] [libx264 @ 0x1a6b000] using SAR=4/3
+[fferr] [libx264 @ 0x1a6b000] using cpu capabilities: none!
+[fferr] [libx264 @ 0x1a6b000] profile High, level 2.2, 4:2:0, 8-bit
+[fferr] [libx264 @ 0x1a6b000] 264 - core 160 - H.264/MPEG-4 AVC codec - Copyleft 2003-2020 - http://www.videolan.org/x264.html - options: cabac=1 ref=3 deblock=1:0:0 analyse=0x3:0x113 me=hex subme=7 psy=1 psy_rd=1.00:0.00 mixed_ref=1 me_range=16 chroma_me=1 trellis=1 8x8dct=1 cqm=0 deadzone=21,11 fast_pskip=1 chroma_qp_offset=-2 threads=6 lookahead_threads=1 sliced_threads=0 nr=0 decimate=1 interlaced=0 bluray_compat=0 constrained_intra=0 bframes=3 b_pyramid=2 b_adapt=1 b_bias=0 direct=1 weightb=1 open_gop=0 weightp=2 keyint=250 keyint_min=8 scenecut=40 intra_refresh=0 rc_lookahead=40 rc=crf mbtree=1 crf=23.0 qcomp=0.60 qpmin=0 qpmax=69 qpstep=4 ip_ratio=1.40 aq=1:1.00
+[fferr] Output #0, mp4, to 'output-image.mp4':
+[fferr]   Metadata:
+[fferr]     major_brand     : isom
+[fferr]     minor_version   : 512
+[fferr]     compatible_brands: isomiso2avc1mp41
+[fferr]     encoder         : Lavf58.45.100
+[fferr]     Stream #0:0(eng): Video: h264 (libx264) (avc1 / 0x31637661), yuv420p, 640x480 [SAR 4:3 DAR 16:9], q=-1--1, 8 fps, 16384 tbn, 8 tbc (default)
+[fferr]     Metadata:
+[fferr]       handler_name    : VideoHandler
+[fferr]       encoder         : Lavc58.91.100 libx264
+[fferr]     Side data:
+[fferr]       cpb: bitrate max/min/avg: 0/0/0 buffer size: 0 vbv_delay: N/A
+[fferr]     Stream #0:1(eng): Audio: aac (LC) (mp4a / 0x6134706D), 48000 Hz, stereo, fltp, 128 kb/s (default)
+[fferr]     Metadata:
+[fferr]       handler_name    : SoundHandler
+[fferr]       encoder         : Lavc58.91.100 aac
+[fferr] frame=    1 fps=0.0 q=0.0 size=       0kB time=00:00:00.04 bitrate=   9.0kbits/s speed=0.0804x    
+[fferr] frame=    6 fps=5.3 q=0.0 size=       0kB time=00:00:00.70 bitrate=   0.5kbits/s speed=0.622x    
+[fferr] frame=   15 fps=9.1 q=0.0 size=       0kB time=00:00:01.83 bitrate=   0.2kbits/s speed=1.12x    
+[fferr] frame=   22 fps= 10 q=0.0 size=       0kB time=00:00:02.75 bitrate=   0.1kbits/s speed=1.28x    
+[fferr] frame=   29 fps= 11 q=0.0 size=       0kB time=00:00:03.58 bitrate=   0.1kbits/s speed=1.35x    
+[fferr] frame=   35 fps= 11 q=0.0 size=       0kB time=00:00:04.32 bitrate=   0.1kbits/s speed=1.37x    
+[fferr] frame=   39 fps= 11 q=0.0 size=       0kB time=00:00:04.83 bitrate=   0.1kbits/s speed=1.32x    
+[fferr] frame=   46 fps= 11 q=0.0 size=       0kB time=00:00:05.71 bitrate=   0.1kbits/s speed=1.36x    
+[fferr] frame=   52 fps= 11 q=24.0 size=       0kB time=00:00:06.56 bitrate=   0.1kbits/s speed= 1.4x    
+[fferr] frame=   57 fps= 11 q=24.0 size=       0kB time=00:00:07.10 bitrate=   0.1kbits/s speed=1.35x    
+[fferr] frame=   63 fps= 11 q=24.0 size=       0kB time=00:00:07.82 bitrate=   0.0kbits/s speed=1.36x    
+[fferr] frame=   72 fps= 11 q=24.0 size=       0kB time=00:00:08.95 bitrate=   0.0kbits/s speed=1.42x    
+[fferr] frame=   81 fps= 12 q=24.0 size=       0kB time=00:00:10.06 bitrate=   0.0kbits/s speed=1.48x    
+[fferr] frame=   85 fps= 12 q=24.0 size=       0kB time=00:00:10.60 bitrate=   0.0kbits/s speed=1.44x    
+[fferr] frame=   91 fps= 11 q=24.0 size=       0kB time=00:00:11.30 bitrate=   0.0kbits/s speed=1.42x    
+[fferr] frame=   97 fps= 11 q=24.0 size=       0kB time=00:00:12.11 bitrate=   0.0kbits/s speed=1.43x    
+[fferr] frame=  105 fps= 12 q=24.0 size=       0kB time=00:00:13.07 bitrate=   0.0kbits/s speed=1.45x    
+[fferr] frame=  114 fps= 12 q=24.0 size=       0kB time=00:00:14.18 bitrate=   0.0kbits/s speed=1.49x    
+[fferr] frame=  118 fps= 12 q=24.0 size=       0kB time=00:00:14.69 bitrate=   0.0kbits/s speed=1.44x    
+[fferr] frame=  121 fps= 11 q=24.0 size=       0kB time=00:00:15.06 bitrate=   0.0kbits/s speed=1.39x    
+[fferr] frame=  123 fps= 11 q=24.0 size=       0kB time=00:00:15.31 bitrate=   0.0kbits/s speed=1.34x    
+[fferr] frame=  127 fps= 11 q=24.0 size=       0kB time=00:00:15.91 bitrate=   0.0kbits/s speed=1.33x    
+[fferr] frame=  132 fps= 11 q=24.0 size=       0kB time=00:00:16.42 bitrate=   0.0kbits/s speed=1.32x    
+[fferr] frame=  138 fps= 11 q=24.0 size=       0kB time=00:00:17.19 bitrate=   0.0kbits/s speed=1.32x    
+[fferr] frame=  143 fps= 11 q=24.0 size=       0kB time=00:00:17.83 bitrate=   0.0kbits/s speed=1.31x    
+[fferr] frame=  149 fps= 11 q=24.0 size=       0kB time=00:00:18.68 bitrate=   0.0kbits/s speed=1.32x    
+[fferr] frame=  157 fps= 11 q=24.0 size=       0kB time=00:00:19.58 bitrate=   0.0kbits/s speed=1.34x    
+[fferr] frame=  158 fps=9.6 q=-1.0 Lsize=     357kB time=00:00:19.62 bitrate= 149.0kbits/s speed=1.19x    
+[fferr] video:36kB audio:309kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: 3.538191%
+[fferr] [libx264 @ 0x1a6b000] frame I:1     Avg QP:12.08  size: 17471
+[fferr] [libx264 @ 0x1a6b000] frame P:40    Avg QP:12.05  size:   322
+[fferr] [libx264 @ 0x1a6b000] frame B:117   Avg QP: 9.65  size:    52
+[fferr] [libx264 @ 0x1a6b000] consecutive B-frames:  1.3%  0.0%  0.0% 98.7%
+[fferr] [libx264 @ 0x1a6b000] mb I  I16..4: 48.8% 24.4% 26.8%
+[fferr] [libx264 @ 0x1a6b000] mb P  I16..4:  0.2%  0.6%  0.2%  P16..4:  2.6%  0.3%  0.3%  0.0%  0.0%    skip:95.8%
+[fferr] [libx264 @ 0x1a6b000] mb B  I16..4:  0.1%  0.0%  0.0%  B16..8:  0.9%  0.0%  0.0%  direct: 0.6%  skip:98.4%  L0:33.2% L1:66.5% BI: 0.2%
+[fferr] [libx264 @ 0x1a6b000] 8x8 transform intra:32.8% inter:56.1%
+[fferr] [libx264 @ 0x1a6b000] coded y,uvDC,uvAC intra: 24.0% 29.8% 21.8% inter: 0.2% 0.9% 0.1%
+[fferr] [libx264 @ 0x1a6b000] i16 v,h,dc,p: 65% 29%  5%  1%
+[fferr] [libx264 @ 0x1a6b000] i8 v,h,dc,ddl,ddr,vr,hd,vl,hu: 24%  6% 63%  1%  1%  1%  2%  1%  1%
+[fferr] [libx264 @ 0x1a6b000] i4 v,h,dc,ddl,ddr,vr,hd,vl,hu: 30% 41% 14%  2%  3%  2%  3%  2%  3%
+[fferr] [libx264 @ 0x1a6b000] i8c dc,h,v,p: 69% 16% 14%  1%
+[fferr] [libx264 @ 0x1a6b000] Weighted P-Frames: Y:0.0% UV:0.0%
+[fferr] [libx264 @ 0x1a6b000] ref P L0: 88.7%  0.5%  6.3%  4.4%
+[fferr] [libx264 @ 0x1a6b000] ref B L0: 75.6% 23.3%  1.2%
+[fferr] [libx264 @ 0x1a6b000] ref B L1: 95.9%  4.1%
+[fferr] [libx264 @ 0x1a6b000] kb/s:14.76
+[fferr] [aac @ 0x1b64080] Qavg: 174.382
+[ffout] FFMPEG_END
+[info] run FS.readFile output-image.mp4
+[info] run FS.unlink input-video
+[info] run FS.unlink output-image.mp4
+directory /Users/light/Documents/projects/blockOsphereSever/videos Uint8Array(365583) [
+    0,   0,   0,  32, 102, 116, 121, 112, 105, 115, 111, 109,
+    0,   0,   2,   0, 105, 115, 111, 109, 105, 115, 111,  50,
+   97, 118,  99,  49, 109, 112,  52,  49,   0,   0,   0,   8,
+  102, 114, 101, 101,   0,   5,  99,  75, 109, 100,  97, 116,
+    0,   0,   2, 159,   6,   5, 255, 255, 155, 220,  69, 233,
+  189, 230, 217,  72, 183, 150,  44, 216,  32, 217,  35, 238,
+  239, 120,  50,  54,  52,  32,  45,  32,  99, 111, 114, 101,
+   32,  49,  54,  48,  32,  45,  32,  72,  46,  50,  54,  52,
+   47,  77,  80,  69,
+  ... 365483 more items
+]
+got here now
