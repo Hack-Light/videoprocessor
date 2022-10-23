@@ -108,7 +108,7 @@ app.post("/setFrame", upload.single("video"), async (req, res) => {
 
     // just very unecessary comment
 
-    createFile(res, name, outputData, "mp4", "videos");
+    createFile(res, name, outputData, "mp4", "videos", blockNumber);
   } catch (error) {
     console.error(error);
     res.sendStatus(500);

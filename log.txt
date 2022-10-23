@@ -62,34 +62,86 @@ data
 [fferr]     Metadata:
 [fferr]       handler_name    : SoundHandler
 [fferr]       encoder         : Lavc58.91.100 aac
-[fferr] frame=    1 fps=0.0 q=0.0 size=       0kB time=00:00:00.04 bitrate=   9.0kbits/s speed=0.0804x    
-[fferr] frame=    6 fps=5.3 q=0.0 size=       0kB time=00:00:00.70 bitrate=   0.5kbits/s speed=0.622x    
-[fferr] frame=   15 fps=9.1 q=0.0 size=       0kB time=00:00:01.83 bitrate=   0.2kbits/s speed=1.12x    
-[fferr] frame=   22 fps= 10 q=0.0 size=       0kB time=00:00:02.75 bitrate=   0.1kbits/s speed=1.28x    
-[fferr] frame=   29 fps= 11 q=0.0 size=       0kB time=00:00:03.58 bitrate=   0.1kbits/s speed=1.35x    
-[fferr] frame=   35 fps= 11 q=0.0 size=       0kB time=00:00:04.32 bitrate=   0.1kbits/s speed=1.37x    
-[fferr] frame=   39 fps= 11 q=0.0 size=       0kB time=00:00:04.83 bitrate=   0.1kbits/s speed=1.32x    
-[fferr] frame=   46 fps= 11 q=0.0 size=       0kB time=00:00:05.71 bitrate=   0.1kbits/s speed=1.36x    
-[fferr] frame=   52 fps= 11 q=24.0 size=       0kB time=00:00:06.56 bitrate=   0.1kbits/s speed= 1.4x    
-[fferr] frame=   57 fps= 11 q=24.0 size=       0kB time=00:00:07.10 bitrate=   0.1kbits/s speed=1.35x    
-[fferr] frame=   63 fps= 11 q=24.0 size=       0kB time=00:00:07.82 bitrate=   0.0kbits/s speed=1.36x    
-[fferr] frame=   72 fps= 11 q=24.0 size=       0kB time=00:00:08.95 bitrate=   0.0kbits/s speed=1.42x    
-[fferr] frame=   81 fps= 12 q=24.0 size=       0kB time=00:00:10.06 bitrate=   0.0kbits/s speed=1.48x    
-[fferr] frame=   85 fps= 12 q=24.0 size=       0kB time=00:00:10.60 bitrate=   0.0kbits/s speed=1.44x    
-[fferr] frame=   91 fps= 11 q=24.0 size=       0kB time=00:00:11.30 bitrate=   0.0kbits/s speed=1.42x    
-[fferr] frame=   97 fps= 11 q=24.0 size=       0kB time=00:00:12.11 bitrate=   0.0kbits/s speed=1.43x    
-[fferr] frame=  105 fps= 12 q=24.0 size=       0kB time=00:00:13.07 bitrate=   0.0kbits/s speed=1.45x    
-[fferr] frame=  114 fps= 12 q=24.0 size=       0kB time=00:00:14.18 bitrate=   0.0kbits/s speed=1.49x    
-[fferr] frame=  118 fps= 12 q=24.0 size=       0kB time=00:00:14.69 bitrate=   0.0kbits/s speed=1.44x    
-[fferr] frame=  121 fps= 11 q=24.0 size=       0kB time=00:00:15.06 bitrate=   0.0kbits/s speed=1.39x    
-[fferr] frame=  123 fps= 11 q=24.0 size=       0kB time=00:00:15.31 bitrate=   0.0kbits/s speed=1.34x    
-[fferr] frame=  127 fps= 11 q=24.0 size=       0kB time=00:00:15.91 bitrate=   0.0kbits/s speed=1.33x    
-[fferr] frame=  132 fps= 11 q=24.0 size=       0kB time=00:00:16.42 bitrate=   0.0kbits/s speed=1.32x    
-[fferr] frame=  138 fps= 11 q=24.0 size=       0kB time=00:00:17.19 bitrate=   0.0kbits/s speed=1.32x    
-[fferr] frame=  143 fps= 11 q=24.0 size=       0kB time=00:00:17.83 bitrate=   0.0kbits/s speed=1.31x    
-[fferr] frame=  149 fps= 11 q=24.0 size=       0kB time=00:00:18.68 bitrate=   0.0kbits/s speed=1.32x    
-[fferr] frame=  157 fps= 11 q=24.0 size=       0kB time=00:00:19.58 bitrate=   0.0kbits/s speed=1.34x    
-[fferr] frame=  158 fps=9.6 q=-1.0 Lsize=     357kB time=00:00:19.62 bitrate= 149.0kbits/s speed=1.19x    
+[fferr] frame=    0 fps=0.0 q=0.0 size=       0kB time=00:00:00.00 bitrate=N/A speed=   0x    
+[fferr] frame=    1 fps=0.9 q=0.0 size=       0kB time=00:00:00.10 bitrate=   3.6kbits/s speed=0.095x    
+[fferr] frame=    3 fps=1.7 q=0.0 size=       0kB time=00:00:00.32 bitrate=   1.2kbits/s speed=0.183x    
+[fferr] frame=    5 fps=2.2 q=0.0 size=       0kB time=00:00:00.61 bitrate=   0.6kbits/s speed=0.274x    
+[fferr] frame=    7 fps=2.5 q=0.0 size=       0kB time=00:00:00.91 bitrate=   0.4kbits/s speed=0.331x    
+[fferr] frame=   10 fps=3.0 q=0.0 size=       0kB time=00:00:01.19 bitrate=   0.3kbits/s speed=0.355x    
+[fferr] frame=   12 fps=3.1 q=0.0 size=       0kB time=00:00:01.42 bitrate=   0.3kbits/s speed=0.364x    
+[fferr] frame=   14 fps=3.2 q=0.0 size=       0kB time=00:00:01.74 bitrate=   0.2kbits/s speed=0.396x    
+[fferr] frame=   17 fps=3.3 q=0.0 size=       0kB time=00:00:02.06 bitrate=   0.2kbits/s speed=0.406x    
+[fferr] frame=   21 fps=3.7 q=0.0 size=       0kB time=00:00:02.59 bitrate=   0.1kbits/s speed=0.455x    
+[fferr] frame=   24 fps=3.9 q=0.0 size=       0kB time=00:00:02.98 bitrate=   0.1kbits/s speed=0.48x    
+[fferr] frame=   28 fps=4.1 q=0.0 size=       0kB time=00:00:03.43 bitrate=   0.1kbits/s speed=0.502x    
+[fferr] frame=   32 fps=4.4 q=0.0 size=       0kB time=00:00:03.98 bitrate=   0.1kbits/s speed=0.543x    
+[fferr] frame=   35 fps=4.4 q=0.0 size=       0kB time=00:00:04.30 bitrate=   0.1kbits/s speed=0.544x    
+[fferr] frame=   37 fps=4.4 q=0.0 size=       0kB time=00:00:04.58 bitrate=   0.1kbits/s speed=0.539x    
+[fferr] frame=   39 fps=4.2 q=0.0 size=       0kB time=00:00:04.83 bitrate=   0.1kbits/s speed=0.525x    
+[fferr] frame=   40 fps=4.1 q=0.0 size=       0kB time=00:00:05.03 bitrate=   0.1kbits/s speed=0.517x    
+[fferr] frame=   42 fps=4.1 q=0.0 size=       0kB time=00:00:05.18 bitrate=   0.1kbits/s speed=0.502x    
+[fferr] frame=   43 fps=4.0 q=0.0 size=       0kB time=00:00:05.35 bitrate=   0.1kbits/s speed=0.495x    
+[fferr] frame=   44 fps=3.9 q=0.0 size=       0kB time=00:00:05.47 bitrate=   0.1kbits/s speed=0.481x    
+[fferr] frame=   45 fps=3.8 q=0.0 size=       0kB time=00:00:05.58 bitrate=   0.1kbits/s speed=0.466x    
+[fferr] frame=   46 fps=3.7 q=0.0 size=       0kB time=00:00:05.78 bitrate=   0.1kbits/s speed=0.463x    
+[fferr] frame=   48 fps=3.6 q=0.0 size=       0kB time=00:00:05.94 bitrate=   0.1kbits/s speed=0.448x    
+[fferr] frame=   49 fps=3.6 q=0.0 size=       0kB time=00:00:06.14 bitrate=   0.1kbits/s speed=0.446x    
+[fferr] frame=   51 fps=3.5 q=24.0 size=       0kB time=00:00:06.31 bitrate=   0.1kbits/s speed=0.437x    
+[fferr] frame=   52 fps=3.5 q=24.0 size=       0kB time=00:00:06.48 bitrate=   0.1kbits/s speed=0.433x    
+[fferr] frame=   53 fps=3.4 q=24.0 size=       0kB time=00:00:06.67 bitrate=   0.1kbits/s speed=0.431x    
+[fferr] frame=   55 fps=3.4 q=24.0 size=       0kB time=00:00:06.86 bitrate=   0.1kbits/s speed=0.426x    
+[fferr] frame=   57 fps=3.4 q=24.0 size=       0kB time=00:00:07.12 bitrate=   0.1kbits/s speed=0.428x    
+[fferr] frame=   60 fps=3.5 q=24.0 size=       0kB time=00:00:07.42 bitrate=   0.1kbits/s speed=0.431x    
+[fferr] frame=   63 fps=3.5 q=24.0 size=       0kB time=00:00:07.86 bitrate=   0.0kbits/s speed=0.442x    
+[fferr] frame=   66 fps=3.6 q=24.0 size=       0kB time=00:00:08.18 bitrate=   0.0kbits/s speed=0.444x    
+[fferr] frame=   67 fps=3.5 q=24.0 size=       0kB time=00:00:08.29 bitrate=   0.0kbits/s speed=0.433x    
+[fferr] frame=   69 fps=3.5 q=24.0 size=       0kB time=00:00:08.61 bitrate=   0.0kbits/s speed=0.436x    
+[fferr] frame=   71 fps=3.5 q=24.0 size=       0kB time=00:00:08.83 bitrate=   0.0kbits/s speed=0.431x    
+[fferr] frame=   73 fps=3.4 q=24.0 size=       0kB time=00:00:09.06 bitrate=   0.0kbits/s speed=0.428x    
+[fferr] frame=   75 fps=3.5 q=24.0 size=       0kB time=00:00:09.36 bitrate=   0.0kbits/s speed=0.431x    
+[fferr] frame=   77 fps=3.5 q=24.0 size=       0kB time=00:00:09.66 bitrate=   0.0kbits/s speed=0.434x    
+[fferr] frame=   80 fps=3.5 q=24.0 size=       0kB time=00:00:09.96 bitrate=   0.0kbits/s speed=0.436x    
+[fferr] frame=   82 fps=3.5 q=24.0 size=       0kB time=00:00:10.27 bitrate=   0.0kbits/s speed=0.439x    
+[fferr] frame=   84 fps=3.5 q=24.0 size=       0kB time=00:00:10.51 bitrate=   0.0kbits/s speed=0.44x    
+[fferr] frame=   86 fps=3.5 q=24.0 size=       0kB time=00:00:10.74 bitrate=   0.0kbits/s speed=0.44x    
+[fferr] frame=   88 fps=3.5 q=24.0 size=       0kB time=00:00:10.96 bitrate=   0.0kbits/s speed=0.439x    
+[fferr] frame=   91 fps=3.6 q=24.0 size=       0kB time=00:00:11.30 bitrate=   0.0kbits/s speed=0.441x    
+[fferr] frame=   93 fps=3.6 q=24.0 size=       0kB time=00:00:11.58 bitrate=   0.0kbits/s speed=0.443x    
+[fferr] frame=   95 fps=3.6 q=24.0 size=       0kB time=00:00:11.88 bitrate=   0.0kbits/s speed=0.445x    
+[fferr] frame=   98 fps=3.6 q=24.0 size=       0kB time=00:00:12.17 bitrate=   0.0kbits/s speed=0.447x    
+[fferr] frame=  100 fps=3.6 q=24.0 size=       0kB time=00:00:12.43 bitrate=   0.0kbits/s speed=0.448x    
+[fferr] frame=  104 fps=3.7 q=24.0 size=       0kB time=00:00:12.94 bitrate=   0.0kbits/s speed=0.457x    
+[fferr] frame=  106 fps=3.7 q=24.0 size=       0kB time=00:00:13.22 bitrate=   0.0kbits/s speed=0.458x    
+[fferr] frame=  108 fps=3.7 q=24.0 size=       0kB time=00:00:13.41 bitrate=   0.0kbits/s speed=0.455x    
+[fferr] frame=  109 fps=3.6 q=24.0 size=       0kB time=00:00:13.58 bitrate=   0.0kbits/s speed=0.452x    
+[fferr] frame=  110 fps=3.6 q=24.0 size=       0kB time=00:00:13.77 bitrate=   0.0kbits/s speed=0.449x    
+[fferr] frame=  112 fps=3.6 q=24.0 size=       0kB time=00:00:13.94 bitrate=   0.0kbits/s speed=0.447x    
+[fferr] frame=  113 fps=3.6 q=24.0 size=       0kB time=00:00:14.14 bitrate=   0.0kbits/s speed=0.446x    
+[fferr] frame=  115 fps=3.6 q=24.0 size=       0kB time=00:00:14.31 bitrate=   0.0kbits/s speed=0.444x    
+[fferr] frame=  116 fps=3.5 q=24.0 size=       0kB time=00:00:14.54 bitrate=   0.0kbits/s speed=0.444x    
+[fferr] frame=  118 fps=3.5 q=24.0 size=       0kB time=00:00:14.69 bitrate=   0.0kbits/s speed=0.44x    
+[fferr] frame=  119 fps=3.5 q=24.0 size=       0kB time=00:00:14.91 bitrate=   0.0kbits/s speed=0.439x    
+[fferr] frame=  121 fps=3.5 q=24.0 size=       0kB time=00:00:15.06 bitrate=   0.0kbits/s speed=0.434x    
+[fferr] frame=  122 fps=3.4 q=24.0 size=       0kB time=00:00:15.18 bitrate=   0.0kbits/s speed=0.426x    
+[fferr] frame=  124 fps=3.4 q=24.0 size=       0kB time=00:00:15.42 bitrate=   0.0kbits/s speed=0.425x    
+[fferr] frame=  125 fps=3.4 q=24.0 size=       0kB time=00:00:15.68 bitrate=   0.0kbits/s speed=0.426x    
+[fferr] frame=  128 fps=3.4 q=24.0 size=       0kB time=00:00:15.95 bitrate=   0.0kbits/s speed=0.427x    
+[fferr] frame=  130 fps=3.4 q=24.0 size=       0kB time=00:00:16.19 bitrate=   0.0kbits/s speed=0.426x    
+[fferr] frame=  132 fps=3.4 q=24.0 size=       0kB time=00:00:16.42 bitrate=   0.0kbits/s speed=0.425x    
+[fferr] frame=  133 fps=3.4 q=24.0 size=       0kB time=00:00:16.59 bitrate=   0.0kbits/s speed=0.423x    
+[fferr] frame=  135 fps=3.4 q=24.0 size=       0kB time=00:00:16.83 bitrate=   0.0kbits/s speed=0.421x    
+[fferr] frame=  138 fps=3.4 q=24.0 size=       0kB time=00:00:17.19 bitrate=   0.0kbits/s speed=0.424x    
+[fferr] frame=  141 fps=3.4 q=24.0 size=       0kB time=00:00:17.64 bitrate=   0.0kbits/s speed=0.429x    
+[fferr] frame=  142 fps=3.4 q=24.0 size=       0kB time=00:00:17.81 bitrate=   0.0kbits/s speed=0.428x    
+[fferr] frame=  145 fps=3.4 q=24.0 size=       0kB time=00:00:18.06 bitrate=   0.0kbits/s speed=0.428x    
+[fferr] frame=  147 fps=3.4 q=24.0 size=       0kB time=00:00:18.30 bitrate=   0.0kbits/s speed=0.428x    
+[fferr] frame=  149 fps=3.4 q=24.0 size=       0kB time=00:00:18.62 bitrate=   0.0kbits/s speed=0.43x    
+[fferr] frame=  151 fps=3.4 q=24.0 size=       0kB time=00:00:18.83 bitrate=   0.0kbits/s speed=0.43x    
+[fferr] frame=  153 fps=3.4 q=24.0 size=       0kB time=00:00:19.06 bitrate=   0.0kbits/s speed=0.43x    
+[fferr] frame=  154 fps=3.4 q=24.0 size=       0kB time=00:00:19.20 bitrate=   0.0kbits/s speed=0.427x    
+[fferr] frame=  156 fps=3.4 q=24.0 size=       0kB time=00:00:19.43 bitrate=   0.0kbits/s speed=0.426x    
+[fferr] frame=  157 fps=3.4 q=24.0 size=       0kB time=00:00:19.58 bitrate=   0.0kbits/s speed=0.425x    
+[fferr] frame=  158 fps=3.2 q=-1.0 Lsize=     357kB time=00:00:19.62 bitrate= 149.0kbits/s speed=0.398x    
 [fferr] video:36kB audio:309kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: 3.538191%
 [fferr] [libx264 @ 0x1a6b000] frame I:1     Avg QP:12.08  size: 17471
 [fferr] [libx264 @ 0x1a6b000] frame P:40    Avg QP:12.05  size:   322
@@ -127,3 +179,312 @@ directory /Users/light/Documents/projects/blockOsphereSever/videos Uint8Array(36
   ... 365483 more items
 ]
 got here now
+[info] use ffmpeg.wasm v0.11.6
+[info] load ffmpeg-core
+[info] loading ffmpeg-core
+[info] ffmpeg-api listening at http://localhost:3900
+[info] ffmpeg-core loaded
+data
+{
+  fieldname: 'video',
+  originalname: 'test.mp4',
+  encoding: '7bit',
+  mimetype: 'video/mp4',
+  buffer: <Buffer 00 00 00 20 66 74 79 70 69 73 6f 6d 00 00 02 00 69 73 6f 6d 69 73 6f 32 61 76 63 31 6d 70 34 31 00 00 00 08 66 72 65 65 00 15 f4 0c 6d 64 61 74 de 02 ... 1455136 more bytes>,
+  size: 1455186
+}
+<Buffer 00 00 00 20 66 74 79 70 69 73 6f 6d 00 00 02 00 69 73 6f 6d 69 73 6f 32 61 76 63 31 6d 70 34 31 00 00 00 08 66 72 65 65 00 15 f4 0c 6d 64 61 74 de 02 ... 1455136 more bytes>
+[info] run FS.writeFile input-video <1455186 bytes binary file>
+[info] run ffmpeg command: -i input-video -filter:v fps=8 -s 640x480 output-image.mp4
+[fferr] ffmpeg version 9e96b1c Copyright (c) 2000-2020 the FFmpeg developers
+[fferr]   built with emcc (Emscripten gcc/clang-like replacement) 2.0.8 (d059fd603d0b45b584f634dc2365bc9e9a6ec1dd)
+[fferr]   configuration: --target-os=none --arch=x86_32 --enable-cross-compile --disable-x86asm --disable-inline-asm --disable-stripping --disable-programs --disable-doc --disable-debug --disable-runtime-cpudetect --disable-autodetect --extra-cflags='-O3 --closure 1 -I/src/build/include -s USE_PTHREADS=1' --extra-cxxflags='-O3 --closure 1 -I/src/build/include -s USE_PTHREADS=1' --extra-ldflags='-O3 --closure 1 -I/src/build/include -s USE_PTHREADS=1 -L/src/build/lib' --pkg-config-flags=--static --nm=llvm-nm --ar=emar --ranlib=emranlib --cc=emcc --cxx=em++ --objcc=emcc --dep-cc=emcc --enable-gpl --enable-nonfree --enable-zlib --enable-libx264 --enable-libx265 --enable-libvpx --enable-libwavpack --enable-libmp3lame --enable-libfdk-aac --enable-libtheora --enable-libvorbis --enable-libfreetype --enable-libopus --enable-libwebp --enable-libass --enable-libfribidi
+[fferr]   libavutil      56. 51.100 / 56. 51.100
+[fferr]   libavcodec     58. 91.100 / 58. 91.100
+[fferr]   libavformat    58. 45.100 / 58. 45.100
+[fferr]   libavdevice    58. 10.100 / 58. 10.100
+[fferr]   libavfilter     7. 85.100 /  7. 85.100
+[fferr]   libswscale      5.  7.100 /  5.  7.100
+[fferr]   libswresample   3.  7.100 /  3.  7.100
+[fferr]   libpostproc    55.  7.100 / 55.  7.100
+[fferr] Input #0, mov,mp4,m4a,3gp,3g2,mj2, from 'input-video':
+[fferr]   Metadata:
+[fferr]     major_brand     : isom
+[fferr]     minor_version   : 512
+[fferr]     compatible_brands: isomiso2avc1mp41
+[fferr]     encoder         : Lavf58.45.100
+[fferr]   Duration: 00:00:19.72, start: 0.000000, bitrate: 590 kb/s
+[fferr]     Stream #0:0(eng): Video: h264 (Constrained Baseline) (avc1 / 0x31637661), yuv420p, 1920x1080 [SAR 1:1 DAR 16:9], 451 kb/s, 25 fps, 25 tbr, 12800 tbn, 50 tbc (default)
+[fferr]     Metadata:
+[fferr]       handler_name    : VideoHandler
+[fferr]     Stream #0:1(eng): Audio: aac (LC) (mp4a / 0x6134706D), 48000 Hz, stereo, fltp, 132 kb/s (default)
+[fferr]     Metadata:
+[fferr]       handler_name    : SoundHandler
+[fferr] Stream mapping:
+[fferr]   Stream #0:0 -> #0:0 (h264 (native) -> h264 (libx264))
+[fferr]   Stream #0:1 -> #0:1 (aac (native) -> aac (native))
+[fferr] [libx264 @ 0x1a6b000] using SAR=4/3
+[fferr] [libx264 @ 0x1a6b000] using cpu capabilities: none!
+[fferr] [libx264 @ 0x1a6b000] profile High, level 2.2, 4:2:0, 8-bit
+[fferr] [libx264 @ 0x1a6b000] 264 - core 160 - H.264/MPEG-4 AVC codec - Copyleft 2003-2020 - http://www.videolan.org/x264.html - options: cabac=1 ref=3 deblock=1:0:0 analyse=0x3:0x113 me=hex subme=7 psy=1 psy_rd=1.00:0.00 mixed_ref=1 me_range=16 chroma_me=1 trellis=1 8x8dct=1 cqm=0 deadzone=21,11 fast_pskip=1 chroma_qp_offset=-2 threads=6 lookahead_threads=1 sliced_threads=0 nr=0 decimate=1 interlaced=0 bluray_compat=0 constrained_intra=0 bframes=3 b_pyramid=2 b_adapt=1 b_bias=0 direct=1 weightb=1 open_gop=0 weightp=2 keyint=250 keyint_min=8 scenecut=40 intra_refresh=0 rc_lookahead=40 rc=crf mbtree=1 crf=23.0 qcomp=0.60 qpmin=0 qpmax=69 qpstep=4 ip_ratio=1.40 aq=1:1.00
+[fferr] Output #0, mp4, to 'output-image.mp4':
+[fferr]   Metadata:
+[fferr]     major_brand     : isom
+[fferr]     minor_version   : 512
+[fferr]     compatible_brands: isomiso2avc1mp41
+[fferr]     encoder         : Lavf58.45.100
+[fferr]     Stream #0:0(eng): Video: h264 (libx264) (avc1 / 0x31637661), yuv420p, 640x480 [SAR 4:3 DAR 16:9], q=-1--1, 8 fps, 16384 tbn, 8 tbc (default)
+[fferr]     Metadata:
+[fferr]       handler_name    : VideoHandler
+[fferr]       encoder         : Lavc58.91.100 libx264
+[fferr]     Side data:
+[fferr]       cpb: bitrate max/min/avg: 0/0/0 buffer size: 0 vbv_delay: N/A
+[fferr]     Stream #0:1(eng): Audio: aac (LC) (mp4a / 0x6134706D), 48000 Hz, stereo, fltp, 128 kb/s (default)
+[fferr]     Metadata:
+[fferr]       handler_name    : SoundHandler
+[fferr]       encoder         : Lavc58.91.100 aac
+[fferr] frame=    0 fps=0.0 q=0.0 size=       0kB time=00:00:00.00 bitrate=N/A speed=   0x    
+[fferr] frame=    1 fps=0.8 q=0.0 size=       0kB time=00:00:00.06 bitrate=   6.0kbits/s speed=0.0491x    
+[fferr] frame=    2 fps=1.0 q=0.0 size=       0kB time=00:00:00.18 bitrate=   2.0kbits/s speed=0.0969x    
+[fferr] frame=    4 fps=1.6 q=0.0 size=       0kB time=00:00:00.42 bitrate=   0.9kbits/s speed=0.172x    
+[fferr] frame=    6 fps=1.9 q=0.0 size=       0kB time=00:00:00.70 bitrate=   0.5kbits/s speed=0.225x    
+[fferr] frame=    8 fps=2.1 q=0.0 size=       0kB time=00:00:00.93 bitrate=   0.4kbits/s speed=0.246x    
+[fferr] frame=   10 fps=2.3 q=0.0 size=       0kB time=00:00:01.19 bitrate=   0.3kbits/s speed=0.274x    
+[fferr] frame=   12 fps=2.3 q=0.0 size=       0kB time=00:00:01.42 bitrate=   0.3kbits/s speed=0.273x    
+[fferr] frame=   13 fps=2.3 q=0.0 size=       0kB time=00:00:01.61 bitrate=   0.2kbits/s speed=0.281x    
+[fferr] frame=   14 fps=2.2 q=0.0 size=       0kB time=00:00:01.70 bitrate=   0.2kbits/s speed=0.272x    
+[fferr] frame=   15 fps=2.2 q=0.0 size=       0kB time=00:00:01.83 bitrate=   0.2kbits/s speed=0.269x    
+[fferr] frame=   16 fps=2.2 q=0.0 size=       0kB time=00:00:01.95 bitrate=   0.2kbits/s speed=0.266x    
+[fferr] frame=   18 fps=2.3 q=0.0 size=       0kB time=00:00:02.19 bitrate=   0.2kbits/s speed=0.278x    
+[fferr] frame=   20 fps=2.4 q=0.0 size=       0kB time=00:00:02.43 bitrate=   0.2kbits/s speed=0.29x    
+[fferr] frame=   22 fps=2.5 q=0.0 size=       0kB time=00:00:02.72 bitrate=   0.1kbits/s speed=0.307x    
+[fferr] frame=   24 fps=2.6 q=0.0 size=       0kB time=00:00:03.02 bitrate=   0.1kbits/s speed=0.322x    
+[fferr] frame=   26 fps=2.6 q=0.0 size=       0kB time=00:00:03.26 bitrate=   0.1kbits/s speed=0.329x    
+[fferr] frame=   29 fps=2.8 q=0.0 size=       0kB time=00:00:03.58 bitrate=   0.1kbits/s speed=0.34x    
+[fferr] frame=   30 fps=2.7 q=0.0 size=       0kB time=00:00:03.79 bitrate=   0.1kbits/s speed=0.344x    
+[fferr] frame=   33 fps=2.9 q=0.0 size=       0kB time=00:00:04.05 bitrate=   0.1kbits/s speed=0.351x    
+[fferr] frame=   35 fps=2.9 q=0.0 size=       0kB time=00:00:04.30 bitrate=   0.1kbits/s speed=0.357x    
+[fferr] frame=   38 fps=3.0 q=0.0 size=       0kB time=00:00:04.71 bitrate=   0.1kbits/s speed=0.373x    
+[fferr] frame=   40 fps=3.0 q=0.0 size=       0kB time=00:00:04.94 bitrate=   0.1kbits/s speed=0.376x    
+[fferr] frame=   42 fps=3.0 q=0.0 size=       0kB time=00:00:05.18 bitrate=   0.1kbits/s speed=0.376x    
+[fferr] frame=   44 fps=3.1 q=0.0 size=       0kB time=00:00:05.41 bitrate=   0.1kbits/s speed=0.377x    
+[fferr] frame=   45 fps=3.0 q=0.0 size=       0kB time=00:00:05.67 bitrate=   0.1kbits/s speed=0.381x    
+[fferr] frame=   47 fps=3.0 q=0.0 size=       0kB time=00:00:05.90 bitrate=   0.1kbits/s speed=0.383x    
+[fferr] frame=   49 fps=3.0 q=0.0 size=       0kB time=00:00:06.09 bitrate=   0.1kbits/s speed=0.377x    
+[fferr] frame=   51 fps=3.0 q=24.0 size=       0kB time=00:00:06.31 bitrate=   0.1kbits/s speed=0.377x    
+[fferr] frame=   52 fps=3.0 q=24.0 size=       0kB time=00:00:06.46 bitrate=   0.1kbits/s speed=0.372x    
+[fferr] frame=   54 fps=3.0 q=24.0 size=       0kB time=00:00:06.72 bitrate=   0.1kbits/s speed=0.374x    
+[fferr] frame=   56 fps=3.0 q=24.0 size=       0kB time=00:00:06.95 bitrate=   0.1kbits/s speed=0.372x    
+[fferr] frame=   58 fps=3.0 q=24.0 size=       0kB time=00:00:07.18 bitrate=   0.1kbits/s speed=0.373x    
+[fferr] frame=   60 fps=3.0 q=24.0 size=       0kB time=00:00:07.55 bitrate=   0.1kbits/s speed=0.381x    
+[fferr] frame=   67 fps=3.3 q=24.0 size=       0kB time=00:00:08.29 bitrate=   0.0kbits/s speed=0.408x    
+[fferr] frame=   71 fps=3.4 q=24.0 size=       0kB time=00:00:08.91 bitrate=   0.0kbits/s speed=0.428x    
+[fferr] frame=   78 fps=3.7 q=24.0 size=       0kB time=00:00:09.70 bitrate=   0.0kbits/s speed=0.455x    
+[fferr] frame=   84 fps=3.8 q=24.0 size=       0kB time=00:00:10.43 bitrate=   0.0kbits/s speed=0.477x    
+[fferr] frame=   91 fps=4.1 q=24.0 size=       0kB time=00:00:11.30 bitrate=   0.0kbits/s speed=0.505x    
+[fferr] frame=   99 fps=4.3 q=24.0 size=       0kB time=00:00:12.30 bitrate=   0.0kbits/s speed=0.537x    
+[fferr] frame=  101 fps=4.3 q=24.0 size=       0kB time=00:00:12.58 bitrate=   0.0kbits/s speed=0.537x    
+[fferr] frame=  104 fps=4.3 q=24.0 size=       0kB time=00:00:12.94 bitrate=   0.0kbits/s speed=0.539x    
+[fferr] frame=  107 fps=4.3 q=24.0 size=       0kB time=00:00:13.31 bitrate=   0.0kbits/s speed=0.541x    
+[fferr] frame=  109 fps=4.3 q=24.0 size=       0kB time=00:00:13.62 bitrate=   0.0kbits/s speed=0.542x    
+[fferr] frame=  111 fps=4.3 q=24.0 size=       0kB time=00:00:13.88 bitrate=   0.0kbits/s speed=0.541x    
+[fferr] frame=  114 fps=4.3 q=24.0 size=       0kB time=00:00:14.18 bitrate=   0.0kbits/s speed=0.541x    
+[fferr] frame=  117 fps=4.4 q=24.0 size=       0kB time=00:00:14.57 bitrate=   0.0kbits/s speed=0.545x    
+[fferr] frame=  119 fps=4.4 q=24.0 size=       0kB time=00:00:14.82 bitrate=   0.0kbits/s speed=0.542x    
+[fferr] frame=  121 fps=4.3 q=24.0 size=       0kB time=00:00:15.14 bitrate=   0.0kbits/s speed=0.543x    
+[fferr] frame=  124 fps=4.4 q=24.0 size=       0kB time=00:00:15.42 bitrate=   0.0kbits/s speed=0.541x    
+[fferr] frame=  127 fps=4.4 q=24.0 size=       0kB time=00:00:15.82 bitrate=   0.0kbits/s speed=0.546x    
+[fferr] frame=  131 fps=4.4 q=24.0 size=       0kB time=00:00:16.29 bitrate=   0.0kbits/s speed=0.55x    
+[fferr] frame=  136 fps=4.5 q=24.0 size=       0kB time=00:00:17.02 bitrate=   0.0kbits/s speed=0.565x    
+[fferr] frame=  142 fps=4.6 q=24.0 size=       0kB time=00:00:17.74 bitrate=   0.0kbits/s speed=0.58x    
+[fferr] frame=  147 fps=4.7 q=24.0 size=       0kB time=00:00:18.36 bitrate=   0.0kbits/s speed=0.59x    
+[fferr] frame=  153 fps=4.8 q=24.0 size=       0kB time=00:00:19.11 bitrate=   0.0kbits/s speed=0.604x    
+[fferr] frame=  155 fps=4.8 q=24.0 size=       0kB time=00:00:19.32 bitrate=   0.0kbits/s speed=0.601x    
+[fferr] frame=  158 fps=4.8 q=24.0 size=       0kB time=00:00:19.58 bitrate=   0.0kbits/s speed=0.598x    
+[fferr] frame=  158 fps=4.4 q=-1.0 Lsize=     357kB time=00:00:19.62 bitrate= 149.0kbits/s speed=0.549x    
+[fferr] video:36kB audio:309kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: 3.538191%
+[fferr] [libx264 @ 0x1a6b000] frame I:1     Avg QP:12.08  size: 17471
+[fferr] [libx264 @ 0x1a6b000] frame P:40    Avg QP:12.05  size:   322
+[fferr] [libx264 @ 0x1a6b000] frame B:117   Avg QP: 9.65  size:    52
+[fferr] [libx264 @ 0x1a6b000] consecutive B-frames:  1.3%  0.0%  0.0% 98.7%
+[fferr] [libx264 @ 0x1a6b000] mb I  I16..4: 48.8% 24.4% 26.8%
+[fferr] [libx264 @ 0x1a6b000] mb P  I16..4:  0.2%  0.6%  0.2%  P16..4:  2.6%  0.3%  0.3%  0.0%  0.0%    skip:95.8%
+[fferr] [libx264 @ 0x1a6b000] mb B  I16..4:  0.1%  0.0%  0.0%  B16..8:  0.9%  0.0%  0.0%  direct: 0.6%  skip:98.4%  L0:33.2% L1:66.5% BI: 0.2%
+[fferr] [libx264 @ 0x1a6b000] 8x8 transform intra:32.8% inter:56.1%
+[fferr] [libx264 @ 0x1a6b000] coded y,uvDC,uvAC intra: 24.0% 29.8% 21.8% inter: 0.2% 0.9% 0.1%
+[fferr] [libx264 @ 0x1a6b000] i16 v,h,dc,p: 65% 29%  5%  1%
+[fferr] [libx264 @ 0x1a6b000] i8 v,h,dc,ddl,ddr,vr,hd,vl,hu: 24%  6% 63%  1%  1%  1%  2%  1%  1%
+[fferr] [libx264 @ 0x1a6b000] i4 v,h,dc,ddl,ddr,vr,hd,vl,hu: 30% 41% 14%  2%  3%  2%  3%  2%  3%
+[fferr] [libx264 @ 0x1a6b000] i8c dc,h,v,p: 69% 16% 14%  1%
+[fferr] [libx264 @ 0x1a6b000] Weighted P-Frames: Y:0.0% UV:0.0%
+[fferr] [libx264 @ 0x1a6b000] ref P L0: 88.7%  0.5%  6.3%  4.4%
+[fferr] [libx264 @ 0x1a6b000] ref B L0: 75.6% 23.3%  1.2%
+[fferr] [libx264 @ 0x1a6b000] ref B L1: 95.9%  4.1%
+[fferr] [libx264 @ 0x1a6b000] kb/s:14.76
+[fferr] [aac @ 0x1b64080] Qavg: 174.382
+[ffout] FFMPEG_END
+[info] run FS.readFile output-image.mp4
+[info] run FS.unlink input-video
+[info] run FS.unlink output-image.mp4
+directory /Users/light/Documents/projects/blockOsphereSever/videos/731090 Uint8Array(365583) [
+    0,   0,   0,  32, 102, 116, 121, 112, 105, 115, 111, 109,
+    0,   0,   2,   0, 105, 115, 111, 109, 105, 115, 111,  50,
+   97, 118,  99,  49, 109, 112,  52,  49,   0,   0,   0,   8,
+  102, 114, 101, 101,   0,   5,  99,  75, 109, 100,  97, 116,
+    0,   0,   2, 159,   6,   5, 255, 255, 155, 220,  69, 233,
+  189, 230, 217,  72, 183, 150,  44, 216,  32, 217,  35, 238,
+  239, 120,  50,  54,  52,  32,  45,  32,  99, 111, 114, 101,
+   32,  49,  54,  48,  32,  45,  32,  72,  46,  50,  54,  52,
+   47,  77,  80,  69,
+  ... 365483 more items
+]
+got error now
+got here now
+[info] use ffmpeg.wasm v0.11.6
+[info] load ffmpeg-core
+[info] loading ffmpeg-core
+[info] ffmpeg-api listening at http://localhost:3900
+[info] ffmpeg-core loaded
+data
+{
+  fieldname: 'video',
+  originalname: 'test.mp4',
+  encoding: '7bit',
+  mimetype: 'video/mp4',
+  buffer: <Buffer 00 00 00 20 66 74 79 70 69 73 6f 6d 00 00 02 00 69 73 6f 6d 69 73 6f 32 61 76 63 31 6d 70 34 31 00 00 00 08 66 72 65 65 00 15 f4 0c 6d 64 61 74 de 02 ... 1455136 more bytes>,
+  size: 1455186
+}
+<Buffer 00 00 00 20 66 74 79 70 69 73 6f 6d 00 00 02 00 69 73 6f 6d 69 73 6f 32 61 76 63 31 6d 70 34 31 00 00 00 08 66 72 65 65 00 15 f4 0c 6d 64 61 74 de 02 ... 1455136 more bytes>
+[info] run FS.writeFile input-video <1455186 bytes binary file>
+[info] run ffmpeg command: -i input-video -filter:v fps=8 -s 640x480 output-image.mp4
+[fferr] ffmpeg version 9e96b1c Copyright (c) 2000-2020 the FFmpeg developers
+[fferr]   built with emcc (Emscripten gcc/clang-like replacement) 2.0.8 (d059fd603d0b45b584f634dc2365bc9e9a6ec1dd)
+[fferr]   configuration: --target-os=none --arch=x86_32 --enable-cross-compile --disable-x86asm --disable-inline-asm --disable-stripping --disable-programs --disable-doc --disable-debug --disable-runtime-cpudetect --disable-autodetect --extra-cflags='-O3 --closure 1 -I/src/build/include -s USE_PTHREADS=1' --extra-cxxflags='-O3 --closure 1 -I/src/build/include -s USE_PTHREADS=1' --extra-ldflags='-O3 --closure 1 -I/src/build/include -s USE_PTHREADS=1 -L/src/build/lib' --pkg-config-flags=--static --nm=llvm-nm --ar=emar --ranlib=emranlib --cc=emcc --cxx=em++ --objcc=emcc --dep-cc=emcc --enable-gpl --enable-nonfree --enable-zlib --enable-libx264 --enable-libx265 --enable-libvpx --enable-libwavpack --enable-libmp3lame --enable-libfdk-aac --enable-libtheora --enable-libvorbis --enable-libfreetype --enable-libopus --enable-libwebp --enable-libass --enable-libfribidi
+[fferr]   libavutil      56. 51.100 / 56. 51.100
+[fferr]   libavcodec     58. 91.100 / 58. 91.100
+[fferr]   libavformat    58. 45.100 / 58. 45.100
+[fferr]   libavdevice    58. 10.100 / 58. 10.100
+[fferr]   libavfilter     7. 85.100 /  7. 85.100
+[fferr]   libswscale      5.  7.100 /  5.  7.100
+[fferr]   libswresample   3.  7.100 /  3.  7.100
+[fferr]   libpostproc    55.  7.100 / 55.  7.100
+[fferr] Input #0, mov,mp4,m4a,3gp,3g2,mj2, from 'input-video':
+[fferr]   Metadata:
+[fferr]     major_brand     : isom
+[fferr]     minor_version   : 512
+[fferr]     compatible_brands: isomiso2avc1mp41
+[fferr]     encoder         : Lavf58.45.100
+[fferr]   Duration: 00:00:19.72, start: 0.000000, bitrate: 590 kb/s
+[fferr]     Stream #0:0(eng): Video: h264 (Constrained Baseline) (avc1 / 0x31637661), yuv420p, 1920x1080 [SAR 1:1 DAR 16:9], 451 kb/s, 25 fps, 25 tbr, 12800 tbn, 50 tbc (default)
+[fferr]     Metadata:
+[fferr]       handler_name    : VideoHandler
+[fferr]     Stream #0:1(eng): Audio: aac (LC) (mp4a / 0x6134706D), 48000 Hz, stereo, fltp, 132 kb/s (default)
+[fferr]     Metadata:
+[fferr]       handler_name    : SoundHandler
+[fferr] Stream mapping:
+[fferr]   Stream #0:0 -> #0:0 (h264 (native) -> h264 (libx264))
+[fferr]   Stream #0:1 -> #0:1 (aac (native) -> aac (native))
+[fferr] [libx264 @ 0x1a6b000] using SAR=4/3
+[fferr] [libx264 @ 0x1a6b000] using cpu capabilities: none!
+[fferr] [libx264 @ 0x1a6b000] profile High, level 2.2, 4:2:0, 8-bit
+[fferr] [libx264 @ 0x1a6b000] 264 - core 160 - H.264/MPEG-4 AVC codec - Copyleft 2003-2020 - http://www.videolan.org/x264.html - options: cabac=1 ref=3 deblock=1:0:0 analyse=0x3:0x113 me=hex subme=7 psy=1 psy_rd=1.00:0.00 mixed_ref=1 me_range=16 chroma_me=1 trellis=1 8x8dct=1 cqm=0 deadzone=21,11 fast_pskip=1 chroma_qp_offset=-2 threads=6 lookahead_threads=1 sliced_threads=0 nr=0 decimate=1 interlaced=0 bluray_compat=0 constrained_intra=0 bframes=3 b_pyramid=2 b_adapt=1 b_bias=0 direct=1 weightb=1 open_gop=0 weightp=2 keyint=250 keyint_min=8 scenecut=40 intra_refresh=0 rc_lookahead=40 rc=crf mbtree=1 crf=23.0 qcomp=0.60 qpmin=0 qpmax=69 qpstep=4 ip_ratio=1.40 aq=1:1.00
+[fferr] Output #0, mp4, to 'output-image.mp4':
+[fferr]   Metadata:
+[fferr]     major_brand     : isom
+[fferr]     minor_version   : 512
+[fferr]     compatible_brands: isomiso2avc1mp41
+[fferr]     encoder         : Lavf58.45.100
+[fferr]     Stream #0:0(eng): Video: h264 (libx264) (avc1 / 0x31637661), yuv420p, 640x480 [SAR 4:3 DAR 16:9], q=-1--1, 8 fps, 16384 tbn, 8 tbc (default)
+[fferr]     Metadata:
+[fferr]       handler_name    : VideoHandler
+[fferr]       encoder         : Lavc58.91.100 libx264
+[fferr]     Side data:
+[fferr]       cpb: bitrate max/min/avg: 0/0/0 buffer size: 0 vbv_delay: N/A
+[fferr]     Stream #0:1(eng): Audio: aac (LC) (mp4a / 0x6134706D), 48000 Hz, stereo, fltp, 128 kb/s (default)
+[fferr]     Metadata:
+[fferr]       handler_name    : SoundHandler
+[fferr]       encoder         : Lavc58.91.100 aac
+[fferr] frame=    1 fps=0.0 q=0.0 size=       0kB time=00:00:00.06 bitrate=   6.0kbits/s speed=0.0948x    
+[fferr] frame=    3 fps=2.5 q=0.0 size=       0kB time=00:00:00.32 bitrate=   1.2kbits/s speed=0.268x    
+[fferr] frame=    5 fps=2.8 q=0.0 size=       0kB time=00:00:00.59 bitrate=   0.6kbits/s speed=0.331x    
+[fferr] frame=    8 fps=3.3 q=0.0 size=       0kB time=00:00:00.93 bitrate=   0.4kbits/s speed=0.382x    
+[fferr] frame=   10 fps=3.3 q=0.0 size=       0kB time=00:00:01.25 bitrate=   0.3kbits/s speed=0.414x    
+[fferr] frame=   13 fps=3.7 q=0.0 size=       0kB time=00:00:01.59 bitrate=   0.2kbits/s speed=0.452x    
+[fferr] frame=   16 fps=3.9 q=0.0 size=       0kB time=00:00:01.95 bitrate=   0.2kbits/s speed=0.481x    
+[fferr] frame=   20 fps=4.4 q=0.0 size=       0kB time=00:00:02.43 bitrate=   0.2kbits/s speed=0.53x    
+[fferr] frame=   30 fps=5.9 q=0.0 size=       0kB time=00:00:03.70 bitrate=   0.1kbits/s speed=0.727x    
+[fferr] frame=   40 fps=7.1 q=0.0 size=       0kB time=00:00:05.03 bitrate=   0.1kbits/s speed=0.898x    
+[fferr] frame=   47 fps=7.7 q=0.0 size=       0kB time=00:00:05.82 bitrate=   0.1kbits/s speed=0.952x    
+[fferr] frame=   53 fps=8.0 q=24.0 size=       0kB time=00:00:06.58 bitrate=   0.1kbits/s speed=0.992x    
+[fferr] frame=   59 fps=8.2 q=24.0 size=       0kB time=00:00:07.31 bitrate=   0.1kbits/s speed=1.02x    
+[fferr] frame=   63 fps=8.2 q=24.0 size=       0kB time=00:00:07.82 bitrate=   0.0kbits/s speed=1.02x    
+[fferr] frame=   68 fps=8.3 q=24.0 size=       0kB time=00:00:08.40 bitrate=   0.0kbits/s speed=1.02x    
+[fferr] frame=   69 fps=7.9 q=24.0 size=       0kB time=00:00:08.59 bitrate=   0.0kbits/s speed=0.984x    
+[fferr] frame=   72 fps=7.8 q=24.0 size=       0kB time=00:00:08.95 bitrate=   0.0kbits/s speed=0.967x    
+[fferr] frame=   75 fps=7.6 q=24.0 size=       0kB time=00:00:09.29 bitrate=   0.0kbits/s speed=0.942x    
+[fferr] frame=   79 fps=7.6 q=24.0 size=       0kB time=00:00:09.83 bitrate=   0.0kbits/s speed=0.941x    
+[fferr] frame=   83 fps=7.5 q=24.0 size=       0kB time=00:00:10.30 bitrate=   0.0kbits/s speed=0.936x    
+[fferr] frame=   86 fps=7.4 q=24.0 size=       0kB time=00:00:10.70 bitrate=   0.0kbits/s speed=0.927x    
+[fferr] frame=   88 fps=7.3 q=24.0 size=       0kB time=00:00:11.02 bitrate=   0.0kbits/s speed=0.914x    
+[fferr] frame=   93 fps=7.4 q=24.0 size=       0kB time=00:00:11.58 bitrate=   0.0kbits/s speed=0.916x    
+[fferr] frame=   98 fps=7.4 q=24.0 size=       0kB time=00:00:12.17 bitrate=   0.0kbits/s speed=0.923x    
+[fferr] frame=  102 fps=7.4 q=24.0 size=       0kB time=00:00:12.80 bitrate=   0.0kbits/s speed=0.934x    
+[fferr] frame=  108 fps=7.6 q=24.0 size=       0kB time=00:00:13.56 bitrate=   0.0kbits/s speed=0.954x    
+[fferr] frame=  113 fps=7.6 q=24.0 size=       0kB time=00:00:14.09 bitrate=   0.0kbits/s speed=0.953x    
+[fferr] frame=  116 fps=7.6 q=24.0 size=       0kB time=00:00:14.43 bitrate=   0.0kbits/s speed=0.94x    
+[fferr] frame=  119 fps=7.4 q=24.0 size=       0kB time=00:00:14.82 bitrate=   0.0kbits/s speed=0.926x    
+[fferr] frame=  122 fps=7.3 q=24.0 size=       0kB time=00:00:15.18 bitrate=   0.0kbits/s speed=0.91x    
+[fferr] frame=  126 fps=7.3 q=24.0 size=       0kB time=00:00:15.69 bitrate=   0.0kbits/s speed=0.91x    
+[fferr] frame=  129 fps=7.3 q=24.0 size=       0kB time=00:00:16.14 bitrate=   0.0kbits/s speed=0.909x    
+[fferr] frame=  132 fps=7.1 q=24.0 size=       0kB time=00:00:16.42 bitrate=   0.0kbits/s speed=0.886x    
+[fferr] frame=  133 fps=7.0 q=24.0 size=       0kB time=00:00:16.63 bitrate=   0.0kbits/s speed=0.874x    
+[fferr] frame=  135 fps=6.9 q=24.0 size=       0kB time=00:00:16.93 bitrate=   0.0kbits/s speed=0.866x    
+[fferr] frame=  138 fps=6.8 q=24.0 size=       0kB time=00:00:17.19 bitrate=   0.0kbits/s speed=0.849x    
+[fferr] frame=  140 fps=6.7 q=24.0 size=       0kB time=00:00:17.42 bitrate=   0.0kbits/s speed=0.838x    
+[fferr] frame=  143 fps=6.7 q=24.0 size=       0kB time=00:00:17.83 bitrate=   0.0kbits/s speed=0.83x    
+[fferr] frame=  146 fps=6.6 q=24.0 size=       0kB time=00:00:18.21 bitrate=   0.0kbits/s speed=0.828x    
+[fferr] frame=  151 fps=6.7 q=24.0 size=       0kB time=00:00:18.83 bitrate=   0.0kbits/s speed=0.837x    
+[fferr] frame=  155 fps=6.7 q=24.0 size=       0kB time=00:00:19.34 bitrate=   0.0kbits/s speed=0.84x    
+[fferr] frame=  158 fps=6.0 q=-1.0 Lsize=     357kB time=00:00:19.62 bitrate= 149.0kbits/s speed=0.75x    
+[fferr] video:36kB audio:309kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: 3.538191%
+[fferr] [libx264 @ 0x1a6b000] frame I:1     Avg QP:12.08  size: 17471
+[fferr] [libx264 @ 0x1a6b000] frame P:40    Avg QP:12.05  size:   322
+[fferr] [libx264 @ 0x1a6b000] frame B:117   Avg QP: 9.65  size:    52
+[fferr] [libx264 @ 0x1a6b000] consecutive B-frames:  1.3%  0.0%  0.0% 98.7%
+[fferr] [libx264 @ 0x1a6b000] mb I  I16..4: 48.8% 24.4% 26.8%
+[fferr] [libx264 @ 0x1a6b000] mb P  I16..4:  0.2%  0.6%  0.2%  P16..4:  2.6%  0.3%  0.3%  0.0%  0.0%    skip:95.8%
+[fferr] [libx264 @ 0x1a6b000] mb B  I16..4:  0.1%  0.0%  0.0%  B16..8:  0.9%  0.0%  0.0%  direct: 0.6%  skip:98.4%  L0:33.2% L1:66.5% BI: 0.2%
+[fferr] [libx264 @ 0x1a6b000] 8x8 transform intra:32.8% inter:56.1%
+[fferr] [libx264 @ 0x1a6b000] coded y,uvDC,uvAC intra: 24.0% 29.8% 21.8% inter: 0.2% 0.9% 0.1%
+[fferr] [libx264 @ 0x1a6b000] i16 v,h,dc,p: 65% 29%  5%  1%
+[fferr] [libx264 @ 0x1a6b000] i8 v,h,dc,ddl,ddr,vr,hd,vl,hu: 24%  6% 63%  1%  1%  1%  2%  1%  1%
+[fferr] [libx264 @ 0x1a6b000] i4 v,h,dc,ddl,ddr,vr,hd,vl,hu: 30% 41% 14%  2%  3%  2%  3%  2%  3%
+[fferr] [libx264 @ 0x1a6b000] i8c dc,h,v,p: 69% 16% 14%  1%
+[fferr] [libx264 @ 0x1a6b000] Weighted P-Frames: Y:0.0% UV:0.0%
+[fferr] [libx264 @ 0x1a6b000] ref P L0: 88.7%  0.5%  6.3%  4.4%
+[fferr] [libx264 @ 0x1a6b000] ref B L0: 75.6% 23.3%  1.2%
+[fferr] [libx264 @ 0x1a6b000] ref B L1: 95.9%  4.1%
+[fferr] [libx264 @ 0x1a6b000] kb/s:14.76
+[fferr] [aac @ 0x1b64080] Qavg: 174.382
+[ffout] FFMPEG_END
+[info] run FS.readFile output-image.mp4
+[info] run FS.unlink input-video
+[info] run FS.unlink output-image.mp4
+directory /Users/light/Documents/projects/blockOsphereSever/videos/731090 Uint8Array(365583) [
+    0,   0,   0,  32, 102, 116, 121, 112, 105, 115, 111, 109,
+    0,   0,   2,   0, 105, 115, 111, 109, 105, 115, 111,  50,
+   97, 118,  99,  49, 109, 112,  52,  49,   0,   0,   0,   8,
+  102, 114, 101, 101,   0,   5,  99,  75, 109, 100,  97, 116,
+    0,   0,   2, 159,   6,   5, 255, 255, 155, 220,  69, 233,
+  189, 230, 217,  72, 183, 150,  44, 216,  32, 217,  35, 238,
+  239, 120,  50,  54,  52,  32,  45,  32,  99, 111, 114, 101,
+   32,  49,  54,  48,  32,  45,  32,  72,  46,  50,  54,  52,
+   47,  77,  80,  69,
+  ... 365483 more items
+]
+got here now
+[info] use ffmpeg.wasm v0.11.6
+[info] load ffmpeg-core
+[info] loading ffmpeg-core
+[info] ffmpeg-api listening at http://localhost:3900
+[info] ffmpeg-core loaded

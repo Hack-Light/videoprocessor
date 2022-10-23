@@ -5,7 +5,7 @@ let { downloadAsJson, uploadFromMemory } = require("./gcloud-bucket");
 
 let local = true;
 
-exports.createFile = async (res, name, data, type, folder, num = 0) => {
+exports.createFile = async (res, name, data, type, folder, blocknumber) => {
   if (!local) {
     let res1 = await uploadFromMemory(name, folder, data, type);
 
@@ -17,8 +17,18 @@ exports.createFile = async (res, name, data, type, folder, num = 0) => {
   } else {
     let dir = path.join(
       "/Users/light/Documents/projects/blockOsphereSever",
-      `${folder}`
+      `${folder}`,
+      `${blocknumber}`
     );
+
+    try {
+      if (!fs.existsSync(dir)) {
+        fs.mkdirSync(dir);
+      }
+    } catch (err) {
+      console.error(err);
+      res.status(200).json({ success: false });
+    }
 
     console.log("directory", dir, data);
 
